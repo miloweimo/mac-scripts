@@ -4,7 +4,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title ts : Paste Current Millisecond ts Unix Timestamp
+# @raycast.title ts : Paste Current Millisecond Timestamp 粘贴当前毫秒时间戳
 # @raycast.mode silent
 
 # Optional parameters:
