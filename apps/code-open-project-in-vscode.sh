@@ -3,7 +3,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Open Project by name via VS Code
-# @raycast.mode compact
+# @raycast.mode silent
 # @raycast.packageName VS Code
 
 # Optional parameters:
@@ -39,5 +39,8 @@ if [ -n $foundDirectory ]; then
   fi
 else
   echo "No such directory in '$HOME' with name $1"
+  mkdir -p "/Users/weimo/mine/proj/$1"
+  code -n "/Users/weimo/mine/proj/$1"
+  echo "Create New Project and open /Users/weimo/mine/proj/$1 via VS Code"
 fi
 exit 0
