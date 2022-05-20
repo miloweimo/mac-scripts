@@ -6,8 +6,8 @@
 # @raycast.mode silent
 
 # Optional parameters:
-# @raycast.icon ??
-# @raycast.argument1 { "type": "text", "placeholder": "Text" }
+# @raycast.icon ../images/eudic.png
+# @raycast.argument1 { "type": "text", "placeholder": "Word Text" }
 # @raycast.packageName Eudb_en_free
 
 # Documentation:
