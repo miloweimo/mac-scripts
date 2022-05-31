@@ -7,7 +7,7 @@
 # @raycast.packageName VS Code
 
 # Optional parameters:
-# @raycast.icon images/vscode.png
+# @raycast.icon ../images/vscode.png
 # @raycast.argument1 { "type": "text", "placeholder": "Directory Name", "optional": false }
 
 # Documentation

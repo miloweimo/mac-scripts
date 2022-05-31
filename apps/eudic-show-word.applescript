@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title cidian: Show word in eudic dictionary ??????
+# @raycast.title cidian: Show word in eudic dictionary
 # @raycast.mode silent
 
 # Optional parameters:
@@ -18,7 +18,8 @@
 on run argv
 -- Eudb_en_free or Eudb_en
 	tell application "Eudb_en_free"
-		activate
+			reopen
+			activate
 		show dic with word (item 1 of argv)
 	end tell
 end run

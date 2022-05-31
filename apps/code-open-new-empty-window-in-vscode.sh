@@ -7,7 +7,7 @@
 # @raycast.packageName VS Code
 
 # Optional parameters:
-# @raycast.icon images/vscode.png
+# @raycast.icon ../images/vscode.png
 
 # Documentation
 # @raycast.description Open New Empty Window in VS Code
