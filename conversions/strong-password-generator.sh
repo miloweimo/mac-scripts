@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Strong Password Generator
+# @raycast.title pwd: Strong Password Generator
 # @raycast.mode compact
 # @raycast.packageName Developer Utils
 

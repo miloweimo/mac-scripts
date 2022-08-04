@@ -39,8 +39,8 @@ if [ -n $foundDirectory ]; then
   fi
 else
   echo "No such directory in '$HOME' with name $1"
-  mkdir -p "/Users/weimo/mine/proj/$1"
-  code -n "/Users/weimo/mine/proj/$1"
-  echo "Create New Project and open /Users/weimo/mine/proj/$1 via VS Code"
+  # mkdir -p "/Users/weimo/mine/proj/$1"
+  # code -n "/Users/weimo/mine/proj/$1"
+  # echo "Create New Project and open /Users/weimo/mine/proj/$1 via VS Code"
 fi
 exit 0

@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title sj : Paste Current Time 粘贴当前时间
+# @raycast.title shijian : Paste Current Time 粘贴当前时间
 # @raycast.mode silent
 
 # Optional parameters:

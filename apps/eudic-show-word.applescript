@@ -18,8 +18,8 @@
 on run argv
 -- Eudb_en_free or Eudb_en
 	tell application "Eudb_en_free"
-			reopen
-			activate
+		reopen
+		activate
 		show dic with word (item 1 of argv)
 	end tell
 end run
