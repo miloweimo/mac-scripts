@@ -19,6 +19,4 @@
 
 CURRENT_POSITION=$(cliclick p)
 cliclick m:0,0
-# sleep 0.1
 cliclick m:$CURRENT_POSITION
-# exit 0
