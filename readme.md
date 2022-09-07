@@ -46,7 +46,7 @@
 | eudic-show-word.applescript         | 快速搜索[欧路词典](https://www.eudic.net/) | 关键字 `sw`                                |
 | iterm-run-shell-command.applescript | 运行shell指令                              |                                            |
 | note-create-new-note.applescript    | 新建备忘录                                 |                                            |
-| show-mission-control.sh             | 显示调度中心和桌面预览                     | 需要安装`cliclick`,建议绑定按键`opt + tab` |
+| show-mission-control.sh             | 显示调度中心和桌面预览                     | 需要安装`cliclick`,设置触发角,建议绑定按键`opt + tab` |
 | net-get-external-ip-v4.sh           | 获取外网IP                                 |                                            |
 | net-get-local-ip-v4.sh              | 获取内网IP                                 |                                            |
 | paste-current-date.sh               | 粘贴日期`yyyy-MM-DD`                       |                                            |
