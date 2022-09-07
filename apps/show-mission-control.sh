@@ -2,6 +2,8 @@
 
 # Dependency: requires cliclick (https://github.com/BlueM/cliclick)
 # Install via Homebrew: `brew install --cask cliclick`
+# Need set left-top to Mission Control:
+# Open System Preferences, go to Desktop & Screen Saver, Open Hot Corners and set.
 
 # Required parameters:
 # @raycast.schemaVersion 1
@@ -20,3 +22,4 @@
 CURRENT_POSITION=$(cliclick p)
 cliclick m:0,0
 cliclick m:$CURRENT_POSITION
+exit 0

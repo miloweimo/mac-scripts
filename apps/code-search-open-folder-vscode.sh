@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Open Project by name via VS Code
+# @raycast.title code: Open Project by name via VS Code
 # @raycast.mode silent
 # @raycast.packageName VS Code
 
@@ -12,8 +12,8 @@
 
 # Documentation
 # @raycast.description Finds path to the given directory which must be a vs code or git project and opens it with VS Code
-# @raycast.author Maksim Zemlyanikin
-# @raycast.authorURL https://github.com/Maksimka101
+# @raycast.author Wei Mo
+# @raycast.authorURL https://github.com/miloweimo
 
 directory=$1
 foundDirectory=''
@@ -39,8 +39,5 @@ if [ -n $foundDirectory ]; then
   fi
 else
   echo "No such directory in '$HOME' with name $1"
-  # mkdir -p "/Users/weimo/mine/proj/$1"
-  # code -n "/Users/weimo/mine/proj/$1"
-  # echo "Create New Project and open /Users/weimo/mine/proj/$1 via VS Code"
 fi
 exit 0
