@@ -14,12 +14,12 @@
 # @raycast.description show word in eudic dictionary
 # @raycast.authorURL https://github.com/miloweimo
 
-
 on run argv
--- Eudb_en_free or Eudb_en
-	tell application "Eudb_en_free"
-		reopen
-		activate
-		show dic with word (item 1 of argv)
-	end tell
+    # FIXME known issue of Eudic. Force open it
+    do shell script "open -b com.eusoft.eudic"
+    do shell script "open -b com.eusoft.eudic"
+    tell application id "com.eusoft.eudic"
+        activate
+        show dic with word (item 1 of argv)
+    end tell
 end run
